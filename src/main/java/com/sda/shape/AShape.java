@@ -2,7 +2,11 @@ package com.sda.shape;
 
 public abstract class AShape {
 
-    public abstract void getArea();
+//    returns shape's area
+//    return area asdouble
+    public abstract double getArea();
 
-    public abstract void getPerimeter();
+//    returns shape's perimeter
+//    return perimeter as double
+    public abstract double getPerimeter();
 }
